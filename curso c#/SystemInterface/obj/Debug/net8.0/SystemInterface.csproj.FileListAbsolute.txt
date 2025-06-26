@@ -1,0 +1,15 @@
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\SystemInterface\bin\Debug\net8.0\SystemInterface.exe
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\SystemInterface\bin\Debug\net8.0\SystemInterface.deps.json
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\SystemInterface\bin\Debug\net8.0\SystemInterface.runtimeconfig.json
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\SystemInterface\bin\Debug\net8.0\SystemInterface.dll
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\SystemInterface\bin\Debug\net8.0\SystemInterface.pdb
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\SystemInterface\obj\Debug\net8.0\SystemInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\SystemInterface\obj\Debug\net8.0\SystemInterface.AssemblyInfoInputs.cache
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\SystemInterface\obj\Debug\net8.0\SystemInterface.AssemblyInfo.cs
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\SystemInterface\obj\Debug\net8.0\SystemInterface.csproj.CoreCompileInputs.cache
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\SystemInterface\obj\Debug\net8.0\SystemInterface.sourcelink.json
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\SystemInterface\obj\Debug\net8.0\SystemInterface.dll
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\SystemInterface\obj\Debug\net8.0\refint\SystemInterface.dll
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\SystemInterface\obj\Debug\net8.0\SystemInterface.pdb
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\SystemInterface\obj\Debug\net8.0\SystemInterface.genruntimeconfig.cache
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\SystemInterface\obj\Debug\net8.0\ref\SystemInterface.dll

@@ -1,0 +1,15 @@
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Worker\bin\Debug\net8.0\Worker.exe
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Worker\bin\Debug\net8.0\Worker.deps.json
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Worker\bin\Debug\net8.0\Worker.runtimeconfig.json
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Worker\bin\Debug\net8.0\Worker.dll
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Worker\bin\Debug\net8.0\Worker.pdb
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Worker\obj\Debug\net8.0\Worker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Worker\obj\Debug\net8.0\Worker.AssemblyInfoInputs.cache
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Worker\obj\Debug\net8.0\Worker.AssemblyInfo.cs
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Worker\obj\Debug\net8.0\Worker.csproj.CoreCompileInputs.cache
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Worker\obj\Debug\net8.0\Worker.sourcelink.json
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Worker\obj\Debug\net8.0\Worker.dll
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Worker\obj\Debug\net8.0\refint\Worker.dll
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Worker\obj\Debug\net8.0\Worker.pdb
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Worker\obj\Debug\net8.0\Worker.genruntimeconfig.cache
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Worker\obj\Debug\net8.0\ref\Worker.dll

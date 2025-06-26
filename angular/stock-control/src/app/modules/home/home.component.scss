@@ -1,0 +1,51 @@
+.grid {
+  background-image: url("../../../assets/foto.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vmin;
+  .col-12 {
+    height: 100vh;
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      form {
+        .card {
+          background: #fff;
+          padding: 10px 30px;
+          border-radius: 3px;
+          box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+          .input-control {
+            display: flex;
+            margin-top: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+      .btn-link-redirect {
+        color: #007bff;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1400px) {
+  .grid {
+    background-position: top;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .grid {
+    height: 100vmax;
+  }
+}

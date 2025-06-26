@@ -1,0 +1,20 @@
+@model SalesWebMvc.Entities.SalesRecord
+
+@{
+    ViewData["Title"] = "Detalhes da Venda";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <strong>ID:</strong> @Model.Id <br />
+    <strong>Data:</strong> @Model.Date.ToString("dd/MM/yyyy") <br />
+    <strong>Valor:</strong> @Model.Amount.ToString("C") <br />
+    <strong>Status:</strong> @Model.Status <br />
+    <strong>Vendedor:</strong> @Model.Seller?.Name
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Editar</a>
+    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+</p>

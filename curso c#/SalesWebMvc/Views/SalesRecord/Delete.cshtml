@@ -1,0 +1,22 @@
+@model SalesWebMvc.Entities.SalesRecord
+
+@{
+    ViewData["Title"] = "Excluir Venda";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>Tem certeza que deseja excluir a seguinte venda?</h4>
+
+<div>
+    <strong>Data:</strong> @Model.Date.ToString("dd/MM/yyyy") <br />
+    <strong>Valor:</strong> @Model.Amount.ToString("C") <br />
+    <strong>Status:</strong> @Model.Status <br />
+    <strong>Vendedor:</strong> @Model.Seller?.Name
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger mt-2">Excluir</button>
+    <a asp-action="Index" class="btn btn-secondary mt-2">Cancelar</a>
+</form>

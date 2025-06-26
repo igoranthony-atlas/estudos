@@ -1,0 +1,49 @@
+@model SalesWebMvc.Entities.SalesRecord
+@using Microsoft.AspNetCore.Mvc.Rendering
+@using SalesWebMvc.Enums
+
+@{
+    ViewData["Title"] = "Editar Venda";
+    var sellersList = new SelectList(ViewBag.Sellers, "Id", "Name", Model.SellerId);
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="Date" class="form-label"></label>
+        <input asp-for="Date" type="date" class="form-control" />
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Amount" class="form-label"></label>
+        <input asp-for="Amount" class="form-control" />
+        <span asp-validation-for="Amount" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Status" class="form-label"></label>
+        <select asp-for="Status" class="form-select" asp-items="Html.GetEnumSelectList<SalesStatus>()"></select>
+        <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="SellerId" class="form-label">Vendedor</label>
+        <select asp-for="SellerId" asp-items="sellersList" class="form-select">
+            <option value="">-- Selecione --</option>
+        </select>
+        <span asp-validation-for="SellerId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-warning">Salvar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

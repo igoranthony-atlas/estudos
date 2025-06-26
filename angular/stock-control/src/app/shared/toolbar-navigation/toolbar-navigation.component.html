@@ -1,0 +1,50 @@
+<p-toolbar [style]="{'background-color': '#004015', 'margin': '10px'}">
+  <div class="p-toolbar-group-start">
+    <button 
+      pButton 
+      class="botao-header"
+      label="Dashboard" 
+       icon="pi pi-home"
+      routerLink="/dashboard" 
+      routerLinkActive="botao-ativo" 
+      [routerLinkActiveOptions]="{ exact: true }"
+    ></button>
+  </div>
+  <div class="p-toolbar-group-center flex gap-5">
+    <button 
+    class="botao-header"
+      pButton 
+      label="Produtos" 
+      routerLink="/products" 
+      icon="pi pi-cart-plus"
+      routerLinkActive="botao-ativo" 
+      [routerLinkActiveOptions]="{ exact: true }"
+    ></button>
+    <button 
+    class="botao-header"
+      pButton 
+      label="Categorias" 
+      routerLink="/categories" 
+       icon="pi pi-ticket"
+      routerLinkActive="botao-ativo"
+      [routerLinkActiveOptions]="{ exact: true }"
+    ></button>
+    <button 
+      pButton 
+      label="Efetuar venda" 
+      icon="pi pi-credit-card"
+      routerLinkActive="botao-ativo"
+      [routerLinkActiveOptions]="{ exact: true }"
+      (click)="handleSaleProduct()"
+      class="botao-header"
+    ></button>
+  </div>
+  <div class="p-toolbar-group-end">
+    <p-button 
+       icon="pi pi-sign-out"
+      label="Sair" 
+      styleClass="p-button-danger" 
+      (click)="handleLogout()"
+    ></p-button>
+  </div>
+</p-toolbar>

@@ -1,0 +1,36 @@
+@model SalesWebMvc.Entities.Seller
+
+@{
+    ViewData["Title"] = "Detalhes do Vendedor";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="mb-4">
+    <h4>Vendedor</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Id</dt>
+        <dd class="col-sm-10">@Model.Id</dd>
+
+        <dt class="col-sm-2">Nome</dt>
+        <dd class="col-sm-10">@Model.Name</dd>
+
+        <dt class="col-sm-2">Email</dt>
+        <dd class="col-sm-10">@Model.Email</dd>
+
+        <dt class="col-sm-2">Data de Nascimento</dt>
+        <dd class="col-sm-10">@Model.BirthDate.ToString("dd/MM/yyyy")</dd>
+
+        <dt class="col-sm-2">Salário Base</dt>
+        <dd class="col-sm-10">@Model.BaseSalary.ToString("C")</dd>
+
+        <dt class="col-sm-2">Departamento</dt>
+        <dd class="col-sm-10">@Model.Department.Name</dd>
+    </dl>
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Editar</a>
+    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+</p>

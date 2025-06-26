@@ -1,0 +1,15 @@
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Pedido\bin\Debug\net8.0\Pedido.exe
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Pedido\bin\Debug\net8.0\Pedido.deps.json
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Pedido\bin\Debug\net8.0\Pedido.runtimeconfig.json
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Pedido\bin\Debug\net8.0\Pedido.dll
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Pedido\bin\Debug\net8.0\Pedido.pdb
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Pedido\obj\Debug\net8.0\Pedido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Pedido\obj\Debug\net8.0\Pedido.AssemblyInfoInputs.cache
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Pedido\obj\Debug\net8.0\Pedido.AssemblyInfo.cs
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Pedido\obj\Debug\net8.0\Pedido.csproj.CoreCompileInputs.cache
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Pedido\obj\Debug\net8.0\Pedido.sourcelink.json
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Pedido\obj\Debug\net8.0\Pedido.dll
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Pedido\obj\Debug\net8.0\refint\Pedido.dll
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Pedido\obj\Debug\net8.0\Pedido.pdb
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Pedido\obj\Debug\net8.0\Pedido.genruntimeconfig.cache
+C:\Users\IgorAnthony\OneDrive - Diretório Padrão\Área de Trabalho\Atlas Inovações\Cursos\curso c#\Pedido\obj\Debug\net8.0\ref\Pedido.dll

@@ -1,0 +1,71 @@
+<div class="grid">
+   <div class="col-12 pl-4 pr-4">
+      <p-card
+      header="Categorias de produtos"
+      >
+        <p-table
+          [value]="categories"
+          [paginator]="true"
+          [rows]="10"
+          ((selection))="categorySelected"
+          [rowsPerPageOptions]="[5, 10, 20]"
+          [globalFilterFields]="['name', 'description']"
+          [responsiveLayout]="'scroll'"
+        >
+          <ng-template pTemplate="header">
+            <tr>
+              <th pSortableColumn="name">
+                Nome <p-sortIcon field="name"></p-sortIcon>
+                <p-columnFilter
+                  type="text"
+                  field="name"
+                  matchMode="contains"
+                  placeholder="Filtrar por nome"
+                  display="menu"
+                  [showMatchModes]="false"
+                  [showOperator]="false"
+                  [showAddButton]="false"
+                ></p-columnFilter>
+              </th>
+              <th >
+                <div class="flex justify-content-center">
+                  <p-button
+                  icon="pi pi-plus"
+                  (click)="handleCategoryEvent(addCategoryAction)"
+                  label="Adicionar"
+                ></p-button>
+                </div>
+              </th>
+              
+            </tr>
+          </ng-template>
+
+          <ng-template pTemplate="body" let-category>
+            <tr>
+              <td>{{ category.name }}</td>
+              <td>
+                <div class="flex justify-content-center gap-3 align-items-center">
+                  <button
+                    pButton
+                  pRipple
+                  type="button"
+                  icon="pi pi-pencil"
+                  class="p-button-warning p-button-rounded "
+                  (click)="handleCategoryEvent(editCategoryAction, category.id, category.name)"
+                  ></button>
+                  <button
+                  pButton
+                  pRipple
+                  type="button"
+                  icon="pi pi-trash"
+                  class="p-button-danger p-button-rounded"
+                  (click)="handleDeleteCategoryEvent(category.id, category.name)"
+                  ></button>
+                </div>
+              </td>
+            </tr>
+          </ng-template>
+      </p-table>
+      </p-card>
+   </div>
+</div>
